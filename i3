@@ -1,0 +1,1 @@
+/home/yangyunfei/.config/i3
