@@ -1,3 +1,3 @@
 #bin/zsh
 
-echo gaoxing12.10 | sudo -S systemctl hibernate
+echo "password" | sudo -S systemctl hibernate
