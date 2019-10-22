@@ -225,11 +225,11 @@ bindsym $mod+d mode "Fousc window"
 
 #--------------- Open a common program ----------------------------
 mode "Open app" {
-        bindsym f exec firefox, mode "default"
-        bindsym i exec idea, mode "default" 
-        bindsym e exec eclipse, mode "default"
-        bindsym d exec dbeaver, mode "default"
-        bindsym b exec BurpSuiteCommunity, mode "default"
+        bindsym f exec --no-startup-id firefox, mode "default"
+        bindsym i exec --no-startup-id idea, mode "default" 
+        bindsym e exec --no-startup-id eclipse, mode "default"
+        bindsym d exec --no-startup-id dbeaver, mode "default"
+        bindsym b exec --no-startup-id BurpSuiteCommunity, mode "default"
 
         # back to normal by Esc
         bindsym Escape mode "default"
