@@ -1,0 +1,85 @@
+xterm.vt100.foreground:  #f8f8f2
+xterm.vt100.background:  #212427
+*.cursorColor: #ffffff
+
+xterm.vt100.color0:  #1c2023
+xterm.vt100.color1:  #FB4934
+xterm.vt100.color2:  #FFDF10
+xterm.vt100.color3:  #FFDF10
+xterm.vt100.color4:  #00FF0A
+xterm.vt100.color5:  #ff79c6 
+xterm.vt100.color6:  #82FF87
+xterm.vt100.color7:  #FFFFFF
+xterm.vt100.color8:  #00FFFC
+xterm.vt100.color9:  #FB4934
+xterm.vt100.color10: #03FC00
+xterm.vt100.color11: #ffffff
+xterm.vt100.color12: #16E6FF
+xterm.vt100.color13: #b48ead
+xterm.vt100.color14: #D86CFF
+xterm.vt100.color15: #FFFFFF
+
+
+
+
+
+
+xterm.termName: xterm-256color
+!Set up UTF-8
+xterm*locale: true
+xterm*uft8: 1
+!Make 'Alt' key behave as on other terminal emulators
+!xterm.vt100.metaSendsEscape: true
+xterm*vt100*geometry: 80x25
+xterm*scrollBar: false
+xterm*rightScrollBar: false
+XTerm*font: -*-terminus-medium-*-*-*-18-*-*-*-*-*-iso10646-1
+xterm*loginshell: true
+XTerm.cursorBlink: true
+xterm*iconPixmap: /home/yangyunfei/.local/share/icons/hicolor/scalable/apps/xterm.xbm
+xterm*colorUL: yellow
+xterm*colorBD: white
+xterm.vt100.selectToClipboard: false
+xterm.scaleHeight: 1.00
+!font and locale
+xterm*faceSize: 12
+xterm*faceName: Hack Nerd Font:antialias=True:hinting=full
+!xterm*cjkWidth: true
+xterm*wideChars: true
+xterm*utf8Title: true
+xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
+!mouse selecting to copy, ctrl-v to paste
+!Ctrl p to print screen content to file
+xterm*VT100.Translations: #override \n\
+Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+Ctrl Shift <Key>V: insert-selection(PRIMARY, CLIPBOARD, CUT_BUFFER0)
+
+!URxvt
+URxvt*saveline: 150000
+URxvt*terName: xterm-256color
+URxvt*scrollBar: false
+URxvt*rightScrollBar: false
+URxvt*internalBorder: 0
+URxvt*externalBorder: 0
+URxvt*letterSpace: -1
+URxvt*depth: 32
+URxvt*font: xft:Hack Nerd Font:size=12
+
+! UXTerm
+UXTerm*termName: xterm-256color
+UXTerm*cursorColor: white
+UXTerm*VT100.geometry: 90x34
+UXterm*faceName: Hack Nerd Font Mono:antialias=true:hinting=full
+UXTerm*faceSize: 13
+Uxterm*utf8Title: true
+UXTerm*dynamicColors: true
+UXTerm*utf8: 2
+UXTerm*eightBitInput: true
+UXTerm*saveLines: 10000
+UXTerm*scrollKey: true
+UXTerm*scrollTtyOutput: false
+UXTerm*scrollBar: false
+UXTerm*rightScrollBar: false
+UXTerm*jumpScroll: true
+UXTerm*multiScroll: true
+UXTerm*toolBar: false
