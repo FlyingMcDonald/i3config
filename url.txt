@@ -1,1 +1,1 @@
-https://pub-api-1.bianyuan.xyz/sub\?target\=clash\&url\=https%3A%2F%2Fjj-rss-01.best%2Flink%2Fn2V2rS6KYA2SxZxa%3Fsub%3D1\&insert\=false\&emoji\=true\&list\=false\&tfo\=false\&scv\=false\&fdn\=false\&sort\=false\&new_name\=true
+https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Fjj-rss-01.best%2Flink%2Fn2V2rS6KYA2SxZxa%3Fsub%3D1&insert=false&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true
